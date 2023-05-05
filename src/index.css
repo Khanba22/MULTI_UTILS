@@ -1,13 +1,63 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin-left: 20%vb;
+  margin-right: 20%vb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn {
+  margin: 10px;
+}
+
+#calculator{
+  display: flex;
+  justify-content: center;
+}
+#mainheading{
+  text-align: center;
+}
+
+.form-control {
+  border: 1px solid black;
+}
+
+.btn-lg{
+  border-radius: 30px;
+  padding: 10px;
+  height:100px;
+  width: 100px;
+}
+
+.navbar-brand{
+  font-size: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.light{
+  font-size: 200px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: wavy;
+  background-color: rgb(120, 18, 176);
+}
+
+.dark{
+  font-size: 200px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: wavy;
+  background-color: green;
+}
+
+.text-start{
+  font-size: large;
 }
